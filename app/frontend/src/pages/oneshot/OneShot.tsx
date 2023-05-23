@@ -246,20 +246,6 @@ const OneShot = () => {
                     disabled={!useSemanticRanker}
                 />
             </Panel>
-            <div className="containerDropDowns">
-                <div className="app">
-                    <p>Situational Awareness</p>
-                    <Menu />
-                </div>
-                <div className="app">
-                    <p>Integrated Reports</p>
-                    <Menu />
-                </div>
-                <div className="app">
-                    <p>Risk Prevention</p>
-                    <Menu />
-                </div>
-            </div>
         </div>
     );
 };
